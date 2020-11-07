@@ -14,6 +14,14 @@ interface Price {
 const allPrices: Price = {
   BTC: { oldPrice: 0, currentPrice: 0 },
   LTC: { oldPrice: 0, currentPrice: 0 },
+  ETH: { oldPrice: 0, currentPrice: 0 },
+  LINK: { oldPrice: 0, currentPrice: 0 },
+  YFI: { oldPrice: 0, currentPrice: 0 },
+  BCH: { oldPrice: 0, currentPrice: 0 },
+  XRP: { oldPrice: 0, currentPrice: 0 },
+  UNI: { oldPrice: 0, currentPrice: 0 },
+  EOS: { oldPrice: 0, currentPrice: 0 },
+  TRX: { oldPrice: 0, currentPrice: 0 },
 };
 
 const Header: React.FC<HeaderProps> = ({ onSelected }) => {
